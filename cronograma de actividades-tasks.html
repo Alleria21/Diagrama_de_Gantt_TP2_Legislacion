@@ -1,0 +1,480 @@
+<html xmlns:ganttproject="http://ganttproject.sf.net/">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>GanttProject - cronograma de actividades</title>
+        <style>
+	    A:link {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black;
+	    }
+	    A:visited {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black; BACKGROUND: none
+	    }
+	    A:hover {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: white ; BACKGROUND: #6d9ec6;
+	    }
+	    .notes {
+	      padding-left: 10px;
+	    }
+	    .notes pre {
+	      font-family: Arial, Helvetica;
+	      font-size: 10px;
+	      margin-top: 0px;
+	      padding-top: 0px;
+	      margin-bottom: 5px;
+	    }
+	    .attachment {
+	      padding-left: 10px;
+	    }
+	    .attachment a:link {
+	      font-weight: normal;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:hover {
+	      font-weight: normal;
+	      text-decoration: underline;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:visited {
+	      font-weight: normal;
+	      font-size: 12px;
+	      background: white;
+	      color: gray;
+	    }
+	    TD {
+		FONT-SIZE: 12px; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    UL {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    LI {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    H1 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #6d9ec6;
+	    }
+	    H2 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #000000;
+	    }
+	    H3 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #6d9ec6;
+	    }
+	    H4 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000;
+	    }
+	    H5 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #6d9ec6;
+	    }
+	    H6 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000
+	    }
+
+	    </style>
+    </head>
+    <body bgcolor="white">
+        <center>
+            <style>
+div.project_name {
+  font-size: 150%;
+  color: black;
+  font-weight: bold;
+  border-top: solid #6d9ec6 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+}
+div.page_links {
+  background: #6d9ec6;
+  text-align: center;
+}
+</style>
+            <center>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td bgcolor="#dddddd">
+                            <div class="project_name">cronograma de actividades</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="page_links">
+                                <a href="cronograma de actividades.html"></a>  |
+          <a href="cronograma de actividades-chart.html">Gantt</a> |
+          <a href="cronograma de actividades-tasks.html">Tarea</a> |
+          <a href="cronograma de actividades-resources.html">Recursos</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <br>
+            <style>
+td.header {
+  background: #dddddd;
+  margin: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom:1px;
+  border-bottom: solid black 2px;
+}
+td.cell {
+  margin: 0;
+  margin-top: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom:1px;
+}
+div.cell {
+}
+h5.header {
+  margin-left: 2px;
+  margin-top: 2px;
+}
+</style>
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td valign="top" class="header">
+                        <h5 class="header">Nombre</h5>
+                    </td><td valign="top" class="header">
+                        <h5 class="header">Fecha de inicio</h5>
+                    </td><td valign="top" class="header">
+                        <h5 class="header">Fecha de fin</h5>
+                    </td><td valign="top" class="header">
+                        <h5 class="header">Recursos</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">determinacion del ambito del proyecto</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">3/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">5/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">estudio de la viabilidad</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">6/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">11/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">analisis de riesgo</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">12/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">18/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">estimacion de coste del proyecto</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">24/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">asignacion de recursos a diferentes etapas del proyecto</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">25/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">27/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">determinacion de necesidades del software</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">28/10/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">10/11/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">ajuste de requerimientos del sistema</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">11/11/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">24/11/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">estudio de implementaciones para el software</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">25/11/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">8/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">seleccion de la estructura general del software</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">9/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">15/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">seleccion de herramientas adecuadas</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">16/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">simplificacion del trabajo mediante entornos de desarrollo</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">16/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">seleccion del lenguaje de programaci&oacute;n apropiado</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">16/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">adquisicion de recursos necesarios para el software funcione</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">20/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">23/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">desarrollo del sistema</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">26/12/22</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">1/2/23</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">desarrollo de casos de prueba para comprobar el funcionamiento del software</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">2/2/23</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">1/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">deteccion de fallos cometidos en etapas anteriores para corregirlos</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">2/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">22/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">planificacion el entorno teniendo en cuenta las dependencias existentes entre los componentes</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">23/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">24/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">despliegue del software desarrollado</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">27/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">29/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">descarte de defectos detectados durante la vida &uacute;til del software</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">30/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">30/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">adaptacion de nuevas necesidades</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">31/3/23</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">5/4/23</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">adici&oacute;n de nuevas funcionalidades</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">6/4/23</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">7/4/23</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+            </table>
+        </center>
+        <br>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td bgcolor="#6d9ec6" width="50%"><font color="#FFFFFF"><b>Ganttproject (3.2.3230)</b></font></td><td bgcolor="#6d9ec6" width="50%" align="right"><b><a href="http://ganttproject.biz">ganttproject.biz</a></b>
+                    <br>
+                    <b>5/10/22 - 11:08:46</b></td>
+            </tr>
+        </table>
+    </body>
+</html>
